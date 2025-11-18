@@ -1,0 +1,95 @@
+body {
+  background: #111;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 48px 0 48px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 38px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+nav ul li {
+  color: #febe01;
+  cursor: pointer;
+}
+
+.grid-catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  justify-items: center;
+  margin-top: 38px;
+}
+
+.carro {
+  background: #181818;
+  border-radius: 6px;
+  color: #fff;
+  width: 340px;
+  padding: 24px 26px 22px 26px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 12px #0003;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-carro {
+  width: 90%;
+  max-width: 280px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 17px;
+  margin-top: 5px;
+}
+
+.valor {
+  font-size: 1.28em;
+  margin-bottom: 10px;
+}
+
+.valor span {
+  color: #febe01;
+}
+
+.marca, .ano, .destaque, .km {
+  color: #febe01;
+  font-weight: bold;
+}
+
+button {
+  background: #febe01;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 18px;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 18px;
+  cursor: pointer;
+  transition: filter 0.2s;
+  width: 145px;
+}
+
+button:hover {
+  filter: brightness(0.93);
+}
